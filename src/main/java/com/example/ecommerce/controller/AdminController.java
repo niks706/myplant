@@ -29,7 +29,7 @@ public class AdminController {
 
     @RequestMapping(value = {"/admin"})
     public String hom() {
-        return "adminHome.html";
+        return "index.html";
     }
 
     @GetMapping("/admin/categories")
